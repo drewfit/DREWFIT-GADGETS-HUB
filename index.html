@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DREWFIT GADGETS HUB</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>DREWFIT GADGETS HUB</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Your One-Stop Tech Shop</h2>
+      <p>Find the latest gadgets at unbeatable prices. Shop now for the best tech deals!</p>
+      <a href="#products" class="cta-btn">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Top Selling Products</h2>
+    <div class="product-cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Smartwatch">
+        <h3>Smartwatch 2025</h3>
+        <p>Stay fit and connected with our latest smartwatch.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Bluetooth Earbuds">
+        <h3>Bluetooth Earbuds</h3>
+        <p>Crystal clear sound for all your calls and music.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Power Banks">
+        <h3>Power Banks</h3>
+        <p>Keep your devices charged on the go with our portable power banks.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About DREWFIT GADGETS HUB</h2>
+    <p>DREWFIT GADGETS HUB is a premier destination for all your tech and gadget needs. We specialize in high-quality, affordable smart devices and accessories. Our goal is to bring the latest innovations to your doorstep, ensuring that you have the best technology at your fingertips.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="#">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 DREWFIT GADGETS HUB. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Optional: Scroll to Top Button -->
+  <a href="#" class="scroll-top-btn"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- JavaScript -->
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
 
